@@ -1,0 +1,19 @@
+﻿<Window
+    x:Class="MessageBoxDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MessageBoxDemo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel>
+        <Button Content="原生弹框"  Click="Button_Click_4"/>
+        <Button Content="成功消息" Click="Button_Click"/>
+        <Button Content="错误消息" Click="Button_Click_1" />
+        <Button Content="询问消息" Click="Button_Click_2"/>
+        <Button Content="普通消息" Click="Button_Click_3" />
+    </StackPanel>
+</Window>
